@@ -1,0 +1,7 @@
+we define routes for different HTTP methods:
+
+GET /tasks - Retrieves all tasks.
+GET /tasks/<task_id> - Retrieves a specific task by its ID.
+POST /tasks - Creates a new task.
+PUT /tasks/<task_id> - Updates a task.
+DELETE /tasks/<task_id> - Deletes a task.

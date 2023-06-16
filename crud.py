@@ -40,7 +40,8 @@ def create_task():
         'id': len(tasks) + 1,
         'title': data['title'],
         'description': data['description'],
-        'completed': False
+        'completed': False,
+        'name' : data['name']
     }
     tasks.append(task)
     return jsonify({'message': 'Task created successfully'})
