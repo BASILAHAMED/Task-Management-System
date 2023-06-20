@@ -1,5 +1,6 @@
-we define routes for different HTTP methods:
+Routes for different HTTP methods:
 
+Using the task id, crud operations will be performed.
 GET /tasks - Retrieves all tasks.
 GET /tasks/<task_id> - Retrieves a specific task by its ID.
 POST /tasks - Creates a new task.
